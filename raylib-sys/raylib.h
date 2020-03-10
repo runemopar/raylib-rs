@@ -74,6 +74,8 @@
 #ifndef RAYLIB_H
 #define RAYLIB_H
 
+#define SUPPORT_FILEFORMAT_IQM      1
+
 #include <stdarg.h> // Required for: va_list - Only used by TraceLogCallback
 
 #if defined(_WIN32) && defined(BUILD_LIBTYPE_SHARED)
